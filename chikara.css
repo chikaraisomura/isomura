@@ -1,0 +1,551 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Avenir Next";
+
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.background {
+    height: 100%;
+    width: 100%;
+    background-image: url(110976250defb5bb6b3c7edbab164ba6.jpg);
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.header {
+    width: 100%;
+    height: 140px;
+}
+
+
+
+.header1 {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+}
+
+.header2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    top: 100px;
+    left: 0;
+}
+
+p {
+    color: white;
+}
+
+.main {
+    padding: 200px 80px;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+}
+
+
+
+.copy-container span {
+    color:red;
+}
+
+
+.section-title {
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+
+
+li {
+    list-style: none;
+}
+
+.header-logo {
+    float: left;
+    FONT-SIZE: 60px;
+    margin: 0 50px;
+    padding: 0 50px;
+    color: white;
+    line-height: 100px;
+    transition: all 1s;
+
+
+
+
+}
+
+.header-logo:hover {
+    background-color: coral;
+    border-radius: 10px;
+
+}
+
+.header-list {
+    float: right;
+    color: white;
+    height: 100px;
+}
+
+.header-list ul {
+    line-height: 100px;
+    padding-right: 50px;
+}
+
+.header-list li {
+    font-size: 20px;
+    float: left;
+    padding: 0 100px;
+}
+
+.footer {
+    background-color: darkblue;
+    color: #fff;
+    height: 100px;
+    padding: 0 40px 40px 40px;
+    width: 100%;
+}
+
+.footer-logo {
+    font-size: 60px;
+    float: left;
+
+
+}
+
+.footer-list {
+    float: right;
+
+}
+
+
+
+.footer-list li {
+    padding: bottom:20px;
+    float: left;
+    padding-right: 50px;
+    font-size: 30px;
+}
+
+.contact-form {
+    padding-top: 100px;
+}
+
+input,
+textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+
+}
+
+.contact-submit:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+.contact-submit {
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+    box-shadow: 10px 10px black;
+}
+
+
+h2 {
+    color: cornflowerblue;
+}
+
+.contentu {
+    color: orange;
+}
+
+follow-me {
+    list-style: none;
+    margin: 0 0 -8px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.follow-me li {
+    float: left;
+    margin: 0 8px 8px 0;
+    padding: 0;
+}
+
+.follow-me li a::before {
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 16px;
+    height: 44px;
+    /* Button height */
+    line-height: 44px;
+    /* Button height */
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    text-align: center;
+    width: 44px;
+    /* Button width */
+}
+
+.follow-me li a:hover::before {
+    opacity: 0.7;
+}
+
+.follow-me li a[href*="amazon.co.jp"]::before,
+.follow-me li a[href*="amazon.com"]::before {
+    background-color: #ff9900;
+    content: "\f270";
+}
+
+.follow-me li a[href*="codepen.io"]::before {
+    background-color: #000000;
+    content: "\f1cb";
+}
+
+.follow-me li a[href*="delicious.com"]::before {
+    background-color: #3399ff;
+    content: "\f1a5";
+}
+
+.follow-me li a[href*="deviantart.com"]::before {
+    background-color: #05cc47;
+    content: "\f1bd";
+}
+
+.follow-me li a[href*="digg.com"]::before {
+    background-color: #000000;
+    content: "\f1a6";
+}
+
+.follow-me li a[href*="dribble.com"]::before {
+    background-color: #ea4c89;
+    content: "\f17d";
+}
+
+.follow-me li a[href*="dropbox.com"]::before {
+    background-color: #007ee5;
+    content: "\f16b";
+}
+
+.follow-me li a[href*="facebook.com"]::before {
+    background-color: #3b5998;
+    content: "\f09a";
+}
+
+.follow-me li a[href*="feedly.com"]::before {
+    background-color: #6cc655;
+    content: "\f09e";
+}
+
+.follow-me li a[href*="flickr.com"]::before {
+    background-color: #0063dc;
+    content: "\f16e";
+}
+
+.follow-me li a[href*="foursquare.com"]::before {
+    background-color: #f94877;
+    content: "\f180";
+}
+
+.follow-me li a[href*="github.com"]::before {
+    background-color: #181717;
+    content: "\f09b";
+}
+
+.follow-me li a[href*="plus.google.com"]::before {
+    background-color: #dc4e41;
+    content: "\f0d5";
+}
+
+.follow-me li a[href*="b.hatena.ne.jp"]::before {
+    background-color: #008fde;
+    content: "\f027";
+    font-family: blogicon;
+}
+
+.follow-me li a[href*="instagram.com"]::before {
+    background-color: #125688;
+    content: "\f16d";
+}
+
+.follow-me li a[href*="last.fm"]::before {
+    background-color: #d51007;
+    content: "\f202";
+}
+
+.follow-me li a[href*="linkedin.com"]::before {
+    background-color: #0077b5;
+    content: "\f0e1";
+}
+
+.follow-me li a[href*="nicovideo.jp"]::before {
+    background-color: #eaeaea;
+    content: "\f047";
+    font-family: blogicon;
+}
+
+.follow-me li a[href*="pinterest.com"]::before {
+    background-color: #bd081c;
+    content: "\f0d2";
+}
+
+.follow-me li a[href*="getpocket.com"]::before {
+    background-color: #ef3f56;
+    content: "\f265";
+}
+
+.follow-me li a[href*="reddit.com"]::before {
+    background-color: #ff4500;
+    content: "\f1a1";
+}
+
+.follow-me li a[href*="skype.com"]::before,
+.follow-me li a[href*="skype:"]::before {
+    background-color: #00aff0;
+    content: "\f17e";
+}
+
+.follow-me li a[href*="slideshare.net"]::before {
+    background-color: #2d2d2d;
+    content: "\f1e7";
+}
+
+.follow-me li a[href*="spotify.com"]::before {
+    background-color: #84bd00;
+    content: "\f1bc";
+}
+
+.follow-me li a[href*="steamcommunity.com"]::before {
+    background-color: #171a21;
+    content: "\f1b6";
+}
+
+.follow-me li a[href*="stumbleupon.com"]::before {
+    background-color: #eb4929;
+    content: "\f1a4";
+}
+
+.follow-me li a[href*="tumblr.com"]::before {
+    background-color: #36465d;
+    content: "\f173";
+}
+
+.follow-me li a[href*="twitch.tv"]::before {
+    background-color: #6441a5;
+    content: "\f1e8";
+}
+
+.follow-me li a[href*="twitter.com"]::before {
+    background-color: #55acee;
+    content: "\f099";
+}
+
+.follow-me li a[href*="vimeo.com"]::before {
+    background-color: #1ab7ea;
+    content: "\f27d";
+}
+
+.follow-me li a[href*="vine.co"]::before {
+    background-color: #11b58a;
+    content: "\f1ca";
+}
+
+.follow-me li a[href*="weibo.com"]::before {
+    background-color: #e6162d;
+    content: "\f18a";
+}
+
+.follow-me li a[href*="whatsapp.com"]::before {
+    background-color: #64d548;
+    content: "\f232";
+}
+
+.follow-me li a[href*="wordpress.com"]::before,
+.follow-me li a[href*="wordpress.org"]::before {
+    background-color: #21759b;
+    content: "\f19a";
+}
+
+.follow-me li a[href*="youtube.com"]::before {
+    background-color: #cd201f;
+    content: "\f16a";
+}
+
+.follow-me li a[href$="/feed"]::before {
+    background-color: #ffa500;
+    content: "\f09e";
+}
+
+.follow-me li a[href$="/subscribe"]::before {
+    background-color: #363636;
+    content: "\f000";
+    font-family: blogicon;
+}
+
+
+#contact_form .input_item dl {
+    margin: 0 0 20px 0;
+    width: 820px;
+}
+
+#contact_form .input_item dl dt {
+    float: left;
+    width: 250px;
+    font-size: 18px;
+    line-height: 30px;
+    height: 30px;
+    padding: 3px 0 3px 0;
+    text-indent: -48px;
+    margin: 0 0 0 48px;
+}
+
+#contact_form .input_item dl dt span {
+    font-size: 14px;
+    margin: 0 10px 0 0;
+    display: inline;
+    line-height: 20px;
+    padding: 3px 10px;
+    color: #ffffff;
+    height: 18px;
+    border-radius: 4px;
+}
+
+#contact_form .input_item dl dt span.req {
+    background: #FF1515;
+}
+
+#contact_form .input_item dl dt span.any {
+    background: #cccccc;
+}
+
+#contact_form .input_item dl dd {
+    float: right;
+    width: 482px;
+    font-size: 18px;
+    line-height: 30px;
+    height: auto;
+}
+
+#contact_form .input_item dl dd li {
+    display: inline-block;
+    margin: 0 15px 0 0;
+    line-height: 30px;
+    height: 30px;
+    padding: 3px 0;
+}
+
+#contact_form .input_item dl dd p.mail_caution {
+    font-size: 12px;
+    line-height: 19px;
+    color: #313131;
+    margin: 5px 0 0 0;
+}
+
+#contact_form .input_item dl dd input[type="text"],
+#contact_form .input_item dl dd input[type="number"],
+#contact_form .input_item dl dd input[type="email"],
+#contact_form .input_item dl dd input[type="tel"] {
+    width: 470px;
+    font-size: 18px;
+    height: 30px;
+    padding: 3px 0 3px 10px;
+    margin: 0;
+}
+
+#contact_form .input_item .transmission input[type="submit"] {
+    border: 3px double #FFFFFF;
+    font-size: 25px;
+    text-shadow: none;
+    display: block;
+    opacity: 1.0;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+    background: #F4D4D4;
+
+}
+
+#contact_form .input_item .transmission input[type="submit"]:hover {
+    background: #FF1515;
+    opacity: 0.85;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#contact_form .input_item dl dd input[type="text"].inp_error,
+#contact_form .input_item dl dd input[type="number"].inp_error,
+#contact_form .input_item dl dd input[type="tel"].inp_error,
+#contact_form .input_item dl dd textarea.inp_error {
+    border: 1px solid #F88A8A;
+    background: #F4D4D4;
+}
+
+#contact_form .input_item dl dd textarea {
+    width: 470px;
+    padding: 10px 3px 10px 10px;
+}
+
+#energy_contact #send_status {
+    padding: 5px 0 25px;
+    text-align: center;
+}
+
+#energy_contact #send_status p {
+    width: 480px;
+    margin: 0 auto;
+    padding: 0 15px;
+    line-height: 50px;
+    font-size: 25px;
+    border: 1px solid #3c763d;
+    border-radius: 4px;
+    background-color: #dff0d8;
+    color: #3c763d;
+}
+
+.transmission:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+    cursor: pointer;
+}
+
+.transmission {
+
+    color: black;
+    cursor: pointer;
+}
